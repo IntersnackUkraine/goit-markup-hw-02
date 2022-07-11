@@ -1,0 +1,157 @@
+body { 
+    font-family:(--font-family); 
+    }
+:root {
+    /* color */
+    --primary-color: #E5E5E5;
+    --secondary-color: #212121;
+    --accent-color: #2196F3;
+    --common-white: #FFFFFF;
+    --common-variation: #757575;
+    --common-black: #000000;
+    --common-business: #2F303A;
+    --common-information: #ececec;
+    --common-lightgrayish: #f5f4fa;
+    /* font: */
+    --title-size1: 36px;
+    --title-size: 14px;
+    --title-logo: 26px;
+    --title-h: 44px;
+    --font-family:'Raleway','Roboto' sans-serif;
+
+}
+/* заголовок */
+.page-header {
+    width: 1660px;
+    margin: 0 0;
+    background-color: var(--common-white);
+    padding: 0px 0px;
+    display: flex;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+    padding:  24px 93px 25px 215px;
+}
+/* логотип */
+.logo {
+    text-decoration: none;
+}
+.logo-Wed {
+    color: var(--accent-color);
+    font-family: var(--font-family);
+    font-size: var(--title-logo);
+}
+.logo-Studio {
+    color: var(--common-black);
+    font-family: var(--font-family);
+    font-size: var(--title-logo);
+}
+/* нав меню */
+.menu-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: var(--title-size);
+}
+.menu-link {
+    margin-right: 50px;
+} 
+/* почта телефон */
+.list {
+    display: flex;
+    align-items: center;
+
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: var(--title-size);
+}
+.phone-number {
+    margin-right: 50px;
+}
+.phone-number {
+    color: var(--common-variation);
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-size: var(--title-size);
+}
+/* Эффективные решения для вашего бизнеса */
+.business {
+    background-color: #2F303A;
+    width: 1600px;
+    right: 600px;
+}
+
+.business-solution {
+    color: var(--common-white);
+    width: 696px;
+    margin-top: 0;
+    /* padding: 200px 452px 280px 452px; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero-dtn {
+    margin-top: 0;
+    /* padding: 350px 700px 200px 700px; */
+}
+.hero-dtn {
+    font-family: 'Roboto';
+    font-style: normal;
+    background-color: var(--accent-color);
+    color: var(--common-white);
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+
+}
+.business-sol {
+    padding: 200px 452px 30px 452px;
+    align-items: center;
+}
+.hero-dtk {
+    padding: 30px 700px 200px 700px;
+    align-items: center;
+}
+.sidebar {
+    width: 1170px;
+    padding: 24px 93px 25px 215px;
+}
+/* .hero-dtn:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a       {    color: #212121;}
+a:hover {    color: #2196F3;}
+
+.list {    list-style: none;}
+.link {    text-decoration: none;}
+
+
+
+
+
