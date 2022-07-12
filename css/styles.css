@@ -327,6 +327,7 @@ padding: 30px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
 .product {
     font-family: var(--font-roboto);
     font-style: var(--font-style);
