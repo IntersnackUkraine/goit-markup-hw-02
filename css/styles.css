@@ -1,3 +1,9 @@
+.footer{
+    border: 5px solid #2F303A;
+}
+a {
+    text-decoration: none;
+}
 a {
     color: #212121;
 }
@@ -44,6 +50,7 @@ body {
     --font-size14: 14px;
     --font-size26: 26px;
     --font-size36: 36px;
+    ---font-size14: 14px;
 
 
 }
@@ -52,6 +59,7 @@ body {
     font-family:  inherit;
 }
 .list {
+    text-decoration: none;
     list-style: none;
     text-decoration: none;
 }
@@ -105,6 +113,7 @@ body {
 }
 /* почта телефон */
 .list {
+    text-decoration: none;
     display: flex;
     align-items: center;
     font-family:var(--font-roboto);
@@ -158,7 +167,8 @@ background-color: var(--logo-color-blue-blue);
         line-height: 1.87;
         display: flex;
         align-items: center;
-        text-align: center;           
+        text-align: center;
+        letter-spacing: 0.06em;           
 }
 /* кнопки */
 
@@ -173,6 +183,7 @@ background-color: var(--logo-color-blue-blue);
     padding: 6px 22px;
     border-radius: 4px;
     cursor: pointer;
+    letter-spacing: 0.03em;
     
 }
 .button-portolio:hover {
@@ -250,20 +261,22 @@ color: var(--main-header-color);
     font-family: var(--font-roboto);
     font-style: var(--font-style);
     font-weight: var(--font-weight500);
-    font-size: var(--font-size14);
-    line-height: 1.35;
+    font-size: 16px;
+    line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--main-header-color);
 }
 /* должность */
 .jobtitle {
+    color: var(--primary-text-color);
     font-family: var(--font-roboto);
     font-style: var(--font-style);
     font-weight: var(--font-weight400);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    color: var(--main-header-color);
+    letter-spacing: 0.03em;
 }
 .team {
     margin-bottom: 0;
@@ -303,12 +316,13 @@ padding: 30px;
     letter-spacing: 0.03em;
 }
 .address {
+    color: var(--main-header-background-size);
     font-family: var(--font-roboto);
     font-style: var(--font-style);
     font-weight: var(--font-weight400);
     font-size: var(--font-size14);
     line-height: 1.71;
-    color: var(--main-header-background-size);
+    
 }
 .mail {
     font-family: var(--font-roboto);
@@ -343,6 +357,7 @@ padding: 30px;
     font-size: 16px;
     line-height: 1.8;
     color: var(--primary-text-color);
+    line-height: 30px;
 }
 
 
